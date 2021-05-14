@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="qhz-7o-f9q">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chems_fuerte" translatesAutoresizingMaskIntoConstraints="NO" id="0il-0v-YMS">
+                                <rect key="frame" x="20" y="387.5" width="180" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="Stu-X4-r9S"/>
+                                    <constraint firstAttribute="height" constant="180" id="eHp-e5-KlI"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chems" translatesAutoresizingMaskIntoConstraints="NO" id="3kf-ch-tti">
+                                <rect key="frame" x="214" y="387.5" width="180" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="EEA-JM-Vxo"/>
+                                    <constraint firstAttribute="width" constant="180" id="hly-Ob-wVt"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flappy Chems" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMi-0D-Z3F">
+                                <rect key="frame" x="53" y="101" width="308" height="94.5"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="59"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="figth" translatesAutoresizingMaskIntoConstraints="NO" id="Gx2-an-72w">
+                                <rect key="frame" x="-223" y="215.5" width="860" height="132"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="132" id="kwD-8g-eub"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="0il-0v-YMS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="7db-e8-Ab5"/>
+                            <constraint firstItem="qhz-7o-f9q" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="8Ke-sQ-e9v"/>
+                            <constraint firstItem="TMi-0D-Z3F" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ClY-Dx-zox"/>
+                            <constraint firstItem="TMi-0D-Z3F" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-300" id="Cyf-wv-L9E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3kf-ch-tti" secondAttribute="trailing" constant="20" id="Gnl-vc-U7T"/>
+                            <constraint firstItem="Gx2-an-72w" firstAttribute="top" secondItem="TMi-0D-Z3F" secondAttribute="bottom" constant="20" id="Tkb-y5-Drn"/>
+                            <constraint firstItem="3kf-ch-tti" firstAttribute="top" secondItem="Gx2-an-72w" secondAttribute="bottom" constant="40" id="VwK-HX-gmp"/>
+                            <constraint firstAttribute="bottom" secondItem="qhz-7o-f9q" secondAttribute="bottom" id="duX-ln-ctI"/>
+                            <constraint firstItem="qhz-7o-f9q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mac-ed-xb5"/>
+                            <constraint firstItem="qhz-7o-f9q" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="vE0-ki-hHK"/>
+                            <constraint firstItem="Gx2-an-72w" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zOY-dT-LBb"/>
+                            <constraint firstItem="0il-0v-YMS" firstAttribute="top" secondItem="Gx2-an-72w" secondAttribute="bottom" constant="40" id="zyR-XX-ujj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chems" width="352" height="489"/>
+        <image name="chems_fuerte" width="693" height="808"/>
+        <image name="figth" width="860" height="467"/>
+        <image name="fondo" width="900" height="504"/>
+    </resources>
+</document>

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "chems.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
